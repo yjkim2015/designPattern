@@ -8,7 +8,6 @@ public class TestPhoneBuilder {
                 .setSamsung(true)
                 .build();
 
-        System.out.println(String.format("ram {%s}, network {%s}, is5G{%s}, isIphone{%s}, isSamsung{%s}",
-                phone.getRam(), phone.getNetwork(), phone.isIs5G(), phone.isIphone(), phone.isSamsung()));
+        System.out.println(phone);
     }
 }

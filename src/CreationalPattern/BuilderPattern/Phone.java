@@ -15,6 +15,17 @@ public class Phone {
         this.is5G = builder.is5G;
     }
 
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "ram='" + ram + '\'' +
+                ", network='" + network + '\'' +
+                ", isIphone=" + isIphone +
+                ", isSamsung=" + isSamsung +
+                ", is5G=" + is5G +
+                '}';
+    }
+
     public String getRam() {
         return ram;
     }
